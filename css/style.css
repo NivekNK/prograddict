@@ -1,0 +1,12 @@
+.content {
+    position: relative;
+    display: block;
+}
+
+.inner-content {
+    padding: 40px;
+}
+
+.text-right {
+    text-align: right;
+}
