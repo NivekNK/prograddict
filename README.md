@@ -6,12 +6,12 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 - Creación de perfil: El usuario podrá registrarse en la aplicación y asi obtener un perfil, en donde se guardara su registro.
 
-- Inicio de sesión: El usuarui podrá iniciar en su perfil.
+- Inicio de sesión: El usuaruo podrá iniciar en su perfil.
 
-- Registro de hábitos/rutinas: El usuario podrá administrar sus hábitos según sus necesidades.
+- Registro de hábitos/rutinas: El usuario podrá administrar sus hábitos según sus necesidades. Podra agregar nuevos hábitos que desee añadir a su rutina, y diariamente podrá registrar su avance. Tambien podra editar o eliminar hábitos según sus necesidades.
 
-- Editar perfil: El usuario que posea un perfil en la aplicación, podra editar sus datos.
+- Editar perfil: El usuario que posea un perfil en la aplicación, podra editar su perfil, pudiendo agregar un avatar como modificando sus datos.
 
-- Blogs: En los blogs usuarios podran compartir sus experiencias.
+- Blogs: En los blogs los usuarios podran compartir y leer experincias de usuarios.
 
 - Resumen de sus hábitos: El usuario podra ver un resumen del seguimiento de sus hábitos.
