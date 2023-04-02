@@ -46,41 +46,37 @@
 
     <!-- ========== Body Start ========== -->
     <div>
-        <main>
-            <h1>Configuración</h1>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"><br>
-        
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" id="correo" name="correo"><br>
-        
-                <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena"><br>
-        
-                <label for="pais">País:</label>
-                <select id="pais" name="pais">
-                    <option value="0">Seleccione</option>
-                    <option value="1">España</option>
-                    <option value="2">Argentina</option>
-                    <option value="3">México</option>
-                </select><br>
-        
-                <label for="genero">Género:</label>
-                <input type="radio" id="genero" name="genero" value="Hombre">Hombre
-                <input type="radio" id="genero" name="genero" value="Mujer">Mujer<br>
-        
-                <label for="descripcion">Descripción:</label>
-                <textarea id="descripcion" name="descripcion"></textarea><br>
-        
-                <input type="submit" value="Guardar cambios">
-            </form>
-        </main>
-        
-        <footer>
-            <p>Derechos reservados © 2021</p>
-        </footer>
-        
+        <div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Configuración</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Ajustar Perfil</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Cambiar Datos Personales</button></div>
+                <div class="row mt-3">
+                    <label for="tema">Tema</label>
+                    <select class="col-md-12" name="Tema"> <label class="labels"></label>
+                        <option value="0">Seleccione</option>
+                        <option value="1">Oscuro</option>
+                        <option value="2">Claro</option>
+                    </select><br>                    
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Cuenta</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Preguntas Frecuentes</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Contáctanos</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Politica y Licencias</button></div>
+                    <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Guardar Cambios</button></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
     </div>
     <!-- ========== Body Start ========== -->
     
