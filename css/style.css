@@ -10,3 +10,8 @@
 .text-right {
     text-align: right;
 }
+
+.centered {
+    padding-left: 15%;
+    padding-right: 15%;
+}
