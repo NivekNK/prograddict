@@ -1,4 +1,4 @@
-# Progaddict [Nombre temporal]
+# Prograddict [Nombre temporal]
 
 El principal objetivo de la aplicación es ofrecer al usuario una herramienta en donde podra llevar  registro registro diario en la incorporación de nuevos hábitos y rutinas de su día a día con el fin de lograr llevar un registro personal sobre avances en salud, progresos en metas personales y objetivos concretos que ayuden al usuario a mejorar su vida, ya sea para dejar de fumar, dormir más tiempo o lograr abandonar alguna adicción poco saludable.
 
