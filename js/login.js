@@ -15,12 +15,17 @@ $(function () {
             password: {
                 required: "Por favor ingresar contraseña."
             }
-        },
-        submitHandler: function(form) {
-            form.submit();
         }
     });
 });
+
+$("form[name='login']").submit(function(event){
+    event.preventDefault();
+    if($("form[name='login']").valid()){
+        window.location.href = "panel.html";
+    }
+});
+
 
 // $(function () {
 //     $("form[name='datos']").validate({
