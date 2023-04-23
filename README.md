@@ -20,4 +20,4 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 ## EP 1.2
 
-Botones principales se han hecho funcionales.
+Botones principales se han hecho funcionales, los formularios de inicio de sesion y registro estan siendo comprobado con JQuery.
