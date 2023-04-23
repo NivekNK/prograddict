@@ -1,9 +1,9 @@
 #continue-btn {
-    pointer-events: none;
-    opacity: 0.5;
+  pointer-events: none;
+  opacity: 0.5;
 }
 
 #accept-toggle:checked ~ #continue-btn {
-    pointer-events: auto;
-    opacity: 1;
-}
+  pointer-events: auto;
+  opacity: 1;
+}/*# sourceMappingURL=legalidad.css.map */

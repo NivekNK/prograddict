@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 
 <html lang="es" data-bs-theme="dark">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    </head>
-    <body>
-        <section class="d-flex justify-content-center m-5 p-5">
-            <div class="col-md-3">
-                <div class="text-center m-2 p-2">
-                    <h1>Inicio Sesión</h1>
-                </div>
 
-                <div>
-                    <form action="">
-                        <div class="m-1">
-                            <label for="correo_electronico">Correo electrónico</label>
-                            <input type="email" class="form-control" name="ccorreo_electronico" id="correo_electronico" placeholder="ejemplo@mail.com">
-                        </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
-                        <div class="m-1">
-                            <label for="password">Contraseña</label>
-                            <input type="password" class="form-control" name="password" id="password">
-                        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+</head>
 
-                        <div>
-                            <button class="btn btn-outline-primary m-1">Iniciar</button>
-                        </div>
-                    </form>
-                </div>
+<body>
+    <section class="d-flex justify-content-center m-5 p-5">
+        <div class="col-md-3">
+            <div class="text-center m-2 p-2">
+                <h1>Inicio Sesión</h1>
             </div>
-        </section>
-        
-        <script src="" async defer></script>
-    </body>
+
+            <div>
+                <form action="" name="login">
+                    <div class="m-1">
+                        <label for="correo_electronico">Correo electrónico</label>
+                        <input type="email" class="form-control" name="correo_electronico" id="correo_electronico"
+                            placeholder="ejemplo@mail.com">
+                    </div>
+
+                    <div class="m-1">
+                        <label for="password">Contraseña</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+
+                    <div>
+                        <button class="btn btn-outline-primary m-1">Iniciar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="js/login.js" async defer></script>
+</body>
+
 </html>
