@@ -1,5 +1,5 @@
 $(function () {
-    $("form[name='registro'").validate({
+    $("form[name='registro']").validate({
         rules: {
             nombre: {
                 required: true,
