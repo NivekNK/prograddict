@@ -18,6 +18,6 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 - Informar al usuario: Se le presentara al usuario durante su creacion o eliminacion de malos habitos, para dar a conocer hechos que podrian estarle sucediendo al usuario en su transición.
 
-## EP 1.2
+## EP 2.2
 
 Botones principales se han hecho funcionales, los formularios de inicio de sesion y registro estan siendo comprobado con JQuery.
