@@ -2,7 +2,7 @@
 
 El principal objetivo de la aplicación es ofrecer al usuario una herramienta en donde podra llevar  registro registro diario en la incorporación de nuevos hábitos y rutinas de su día a día con el fin de lograr llevar un registro personal sobre avances en salud, progresos en metas personales y objetivos concretos que ayuden al usuario a mejorar su vida, ya sea para dejar de fumar, dormir más tiempo o lograr abandonar alguna adicción poco saludable.
 
-## EP 1.1 - Analisis de funcionalidades
+## EP 1 - Analisis de funcionalidades
 
 - Creación de perfil: El usuario podrá registrarse en la aplicación y asi obtener un perfil, en donde se guardara su registro.
 
@@ -18,6 +18,10 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 - Informar al usuario: Se le presentara al usuario durante su creacion o eliminacion de malos habitos, para dar a conocer hechos que podrian estarle sucediendo al usuario en su transición.
 
-## EP 2.2
+## EP 2
 
 Botones principales se han hecho funcionales, los formularios de inicio de sesion y registro estan siendo comprobado con JQuery.
+
+## EP 3
+
+Se utiliza React con Typescript. En la pagina de Panel se esta leyendo informacion desde un json, y se modifican sus datos.
