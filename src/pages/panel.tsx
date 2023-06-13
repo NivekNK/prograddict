@@ -32,7 +32,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_day}></a>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
@@ -58,7 +58,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_month}></a>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
@@ -83,7 +83,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_year}></a>
                             </div>
                         </div>
                     </div>
@@ -116,14 +116,19 @@ function Panel() {
         return <div>Cargando...</div>; }
     }
 
+    const augment_day = () => {
+        setData(prevData => ({
+            ...prevData,
+            day: prevData.day + 1,
+        }));
+    };
+    
     return (
         <div>
             {/* Renderiza el componente Panel utilizando los datos obtenidos del archivo JSON */}
         </div>
     );
 }
-
-export default Panel;
 
 
 export default Panel;
