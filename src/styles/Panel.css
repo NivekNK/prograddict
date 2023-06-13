@@ -1,0 +1,19 @@
+.bg-c-yellow {
+  background: linear-gradient(to right, #fe9365, #feb798);
+}
+
+.bg-c-red {
+  background: linear-gradient(to right, #fa114f, #ff84b5);
+}
+
+.bg-c-green {
+  background: linear-gradient(to right, #096f32, #b3ff84);
+}
+
+.bg-c-blue {
+  background: linear-gradient(to right, #1153fa, #8497ff);
+}
+
+.card-inner-text {
+  margin: 15px;
+}/*# sourceMappingURL=Panel.css.map */
