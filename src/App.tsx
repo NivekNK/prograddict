@@ -8,7 +8,7 @@ import Blogs from "./pages/Blogs";
 import Legality from "./pages/Legality";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Panel from "./pages/Panel";
+import Panel from "./pages/panel";
 
 function App() {
     return (

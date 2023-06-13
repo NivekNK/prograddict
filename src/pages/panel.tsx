@@ -18,6 +18,7 @@ function Panel() {
         setData(prevData => ({
             ...prevData,
             month: prevData.month + 1,
+            year: prevData.year + 1,
         }));
     };
 
@@ -115,43 +116,5 @@ function Panel() {
         </div>
     );
 }
-
-import React, { useState, useEffect } from 'react';
-
-function Panel() {
-    const [data, setData] = useState(null);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch('ruta/al/archivo.json');
-                const jsonData = await response.json();
-                setData(jsonData);
-            } catch (error) {
-                console.log('Error al obtener los datos:', error);
-            }
-        };
-
-        fetchData(); 
-    }, []);
-
-    if (!data) {
-        return <div>Cargando...</div>; }
-    }
-
-    const augment_day = () => {
-        setData(prevData => ({
-            ...prevData,
-            day: prevData.day + 1,
-        }));
-    };
-    
-    return (
-        <div>
-            {/* Renderiza el componente Panel utilizando los datos obtenidos del archivo JSON */}
-        </div>
-    );
-}
-
 
 export default Panel;
