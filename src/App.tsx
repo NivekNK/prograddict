@@ -8,6 +8,7 @@ import Blogs from "./pages/Blogs";
 import Legality from "./pages/Legality";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Panel from "./pages/Panel";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/legalidad' element={<Legality />} />
                     <Route path="/ingresar" element={<Login />}/>
                     <Route path="/registrar" element={<Register />}/>
+                    <Route path="/panel" element={<Panel />}/>
                 </Routes>
             </Container>
             <Footer />
