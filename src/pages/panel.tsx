@@ -5,6 +5,29 @@ import "../styles/Panel.css";
 function Panel() {
     const [data, setData] = useState(jsonData);
 
+    const augment_day = () => {
+        setData(prevData => ({
+            ...prevData,
+            day: prevData.day + 1,
+            month: prevData.month + 1,
+            year: prevData.year + 1,
+        }));
+    };
+
+    const augment_month = () => {
+        setData(prevData => ({
+            ...prevData,
+            month: prevData.month + 1,
+        }));
+    };
+
+    const augment_year = () => {
+        setData(prevData => ({
+            ...prevData,
+            year: prevData.year + 1,
+        }));
+    };
+
     return (
         <div>
             <div className="content">
@@ -32,7 +55,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_day}></a>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
@@ -58,7 +81,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_month}></a>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6">
@@ -83,7 +106,7 @@ function Panel() {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" className="stretched-link"></a>
+                                <a href="#" className="stretched-link" onClick={augment_year}></a>
                             </div>
                         </div>
                     </div>
