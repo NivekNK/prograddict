@@ -5,6 +5,22 @@ import Row from "react-bootstrap/Row";
 import * as formik from "formik";
 import * as yup from "yup";
 
+async function postData(url: string, data = {}) {
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+      const responseData = await response.json();
+      console.log('Success:', responseData);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+
 function Register() {
     const { Formik } = formik;
 
@@ -28,7 +44,12 @@ function Register() {
             <Col sm="8">
                 <Formik
                     validationSchema={schema}
-                    onSubmit={console.log}
+                    onSubmit={(values, { setSubmitting }) => {
+                        setTimeout(() => {
+                            postData("http://localhost:8000/api/register", values);
+                          setSubmitting(false);
+                        }, 400);
+                      }}
                     initialValues={{
                         firstName: "",
                         fatherLastName: "",
